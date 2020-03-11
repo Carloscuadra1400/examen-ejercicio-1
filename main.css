@@ -17,23 +17,28 @@ menu h1{
 }
 .contenedor{
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin: 20%;
-    margin-top: 5%;
+    justify-content: center;
+    
+    margin-top: 20px;
 }
 
 .casilla img{
     height: 200px;
-    width: 200px;
+    width: 210px;
 }
 .casilla h3{
+    padding-left: 10px;
     font-family: cursive;
     color: rgb(238, 54, 54);
 }
 .casilla{
-    height: 400px;
-    width: 200px;
+    height: 500px;
+    width: 210px;
     background-color: rgb(230, 230, 230);
     margin-right: 10px;
+    text-align: start;
+}
+
+.casilla p{
+    padding: 10px;
 }
