@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #c4c2c2;
+}
+menu {
+    height: 40%;
+    background-color:rgb(238, 54, 54);
+    box-shadow: 0 1px 5px palevioletred;
+    display: flex;
+    margin-top: 0;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+}
+menu h1{
+    color: white;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20%;
+    margin-top: 5%;
+}
+
+.casilla img{
+    height: 200px;
+    width: 200px;
+}
+.casilla h3{
+    font-family: cursive;
+    color: rgb(238, 54, 54);
+}
+.casilla{
+    height: 400px;
+    width: 200px;
+    background-color: rgb(230, 230, 230);
+    margin-right: 10px;
+}
